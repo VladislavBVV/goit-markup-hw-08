@@ -1,0 +1,65 @@
+:root {
+    --paragraphtextcolor: #757575;
+    --titletextcolor: #212121;
+    --accent: #2196F3;
+    --cardsbcg: #FFFFFF;
+    --teambcg: #F5F4FA;
+    --headerbgc: #FFFFFF;
+    --herobcg: #2F303A;
+    --solutionsbcg: #FFFFFF;
+    --worksbcg: #FFFFFF;
+    --footerbcg: #2F303A;
+    --timingfunction: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width:100%; 
+  height:auto;
+  width: 100%;
+}
+
+
+
+body {
+   font-family: "Roboto", sans-serif;
+    color: #757575;
+    background-color: #FFF;
+
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+
+h2 {
+    margin-top: 0px;
+}  
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 9.4px;
+}

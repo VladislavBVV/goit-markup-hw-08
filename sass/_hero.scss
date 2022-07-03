@@ -1,0 +1,99 @@
+.hero {    
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+   
+}
+
+.hero .conteiner {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding-left: 15px;
+    padding-right: 15px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+  }
+}
+
+.hero-title {
+    max-width: 696px;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 1.36;
+    font-weight: 900;
+font-size: 44px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+
+    color: #FFFFFF;
+}
+
+.hero .button {
+    
+    min-width: 200px;
+    padding: 10px 32px;  
+    border: 0px solid transparent;
+    text-align: center;
+}
+
+.button {
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+font-family: inherit;
+
+    color: #FFFFFF;
+    background-color: var(--accent);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* ----------Hero background ------------ */
+
+.background {
+    background: var(--herobcg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 
+    ,rgba(47, 48, 58, 0.4)),
+    url(../IMG/hero-mob.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+      @include retina {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 
+    ,rgba(47, 48, 58, 0.4)),
+      url(../img/hero-mob-2x.jpg);
+  }
+  @include tablet {
+    padding: 280px 70px 234px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 
+    ,rgba(47, 48, 58, 0.4)),
+      url(../img/hero-tab.jpg);
+    @include retina {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 
+    ,rgba(47, 48, 58, 0.4)),
+        url(../img/hero-tab-2x.jpg);
+    }
+  }
+  @include desktop {
+    padding: 272px 96px 206px 96px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 
+    ,rgba(47, 48, 58, 0.4)),
+      url(../img/hero.jpg);
+    @include retina {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 
+    ,rgba(47, 48, 58, 0.4)),
+        url(../img/hero-bg-2x.jpg);
+    }
+  }
+}
