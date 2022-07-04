@@ -126,7 +126,7 @@ text-decoration: none;
   align-items: center;
   margin-left: auto;
   padding-top: 20px;
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 768px) {
 display: none; 
 } 
 @media screen and (min-width: 1200px) {
@@ -207,7 +207,7 @@ letter-spacing: 0.02em;
 
 
 .menu-open-btn {
-      @media screen and (min-width: 780px) {
+      @media screen and (min-width: 768px) {
     display: none;
   }
 }
