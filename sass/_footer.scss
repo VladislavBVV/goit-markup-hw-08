@@ -17,6 +17,7 @@ text-align: center;
 letter-spacing: 0.03em;
     display: inline-block;
     margin-bottom: 20px;
+    text-decoration: none;
         @media screen and (min-width: 1200px) {
   font-family: 'Raleway';
 font-weight: 700;
@@ -42,12 +43,6 @@ color: #FFFFFF;
 
 }
 
-
-
-.footer a {
-    text-decoration: none;
-}
-
 .footercontacts {
     margin-right: auto;
 }
@@ -55,20 +50,6 @@ color: #FFFFFF;
 .footercontacts__item:not(:last-child) {
     margin-bottom: 9px;
 }
-
-
-
-
-
-.connect--light {
-    color: #FFFFFF;
-}
-
-.connect--dark {
-    color: #FFFFFF99;
-}
-
-
 
 .footercontacts__connect:hover,
 .footercontacts__connect:focus 

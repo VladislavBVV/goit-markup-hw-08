@@ -55,8 +55,12 @@
 
 .button-modal-close {
     position: absolute;
+    margin: 0;
+  padding: 0;
     top: 8px;
     right: 8px;
+    width: 30px;
+  height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +74,10 @@
 }
 }
 
-
+.button-close-icon {
+    height: 18px;
+  width: 18px;
+}
 
 
 .modal-title {
