@@ -124,17 +124,28 @@ text-decoration: none;
 
 
 .contacts {
-    display: inline-flex;
-    align-items: center;
-    margin-left: auto;
-      @media screen and (max-width: 780px) {
-    display: none;
-  }
+  
+  align-items: center;
+  margin-left: auto;
+  padding-top: 20px;
+  @media screen and (max-width: 780px) {
+display: none; 
+} 
+@media screen and (min-width: 1200px) {
+display: inline-flex; 
+
+} 
+
    
 }
 
 .contacts__item + .contacts__item {
-    margin-left: 50px;
+  @media screen and (min-width: 1200px) {
+display: inline-flex;
+margin-left: 50px;
+
+} 
+    
 }
 
 .contacts__icon {
