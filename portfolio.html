@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="./CSS/main.min.css">
 </head>
 <body>
-    <!-- <header class="header">
+        <header class="header">
         <div class="container">
         <nav class="site-nav">
-    <a href="" class="item logo-header"><span class="logo">Web</span><span class="logo1">Studio</span></a>
+    <a href="" class="logo-header"><span class="logo">Web</span><span class="logo1">Studio</span></a>
             <ul class="nav">   
-            <li class="nav__item"><a href="./index.html" class="nav__link">Студия</a></li>
-            <li class="nav__item"><a href="./portfolio.html" class="nav__link-current">Портфолио</a></li>
+            <li class="nav__item"><a href="./index.html" class="nav__link-current">Студия</a></li>
+            <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
             <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
         </ul>
         </nav>
-         <ul class="contacts">
+        <ul class="contacts">
             <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__link"> 
                 <svg class="contacts__icon"  width="16" height="12">
@@ -38,10 +38,47 @@
                 </svg>+38 096 111 11 11</a>
             </li>
         </ul>
+
+
+        <button type="button" class="mob-btn menu-open-btn">
+            <svg width="40" height="40">
+            
+<use  href="./IMG/symbol-defs.svg#icon-menu_40px"></use>
+            </svg>
+        </button>
+        <div class="mob-menu is-hidden">
+            <div class="container">
+            <button type="button" class="mob-btn menu-close-btn">
+           <svg width="40" height="40">
+            <use  href="./IMG/symbol-defs.svg#icon-close_40px"></use>
+            </svg>
+            </button>
+            <ul class="mob-nav">   
+            <li class="mob-nav-item"><a href="./index.html" class="mob-nav-link link">Студия</a></li>
+            <li class="mob-nav-item"><a href="./portfolio.html" class="mob-nav-link link">Портфолио</a></li>
+            <li class="mob-nav-item"><a href="" class="mob-nav-link link">Контакты</a></li>
+        </ul>
+        <ul class="mob-contacts">
+            <li class="mob-contacts-item">
+                <a href="tel:+380961111111" class="mob-contacts-tel link"> 
+                    +38 096 111 11 11</a>
+            </li>
+             <li class="mob-contacts-item">
+            <a href="mailto:info@devstudio.com" class="mob-contacts-mail link"> 
+                info@devstudio.com</a>
+        </li>
+        </ul>
+        <ul>
+           <ul class="mob-social">
+            <li class="mob-social-item"><a class="mob-social-link" href="">Instagram</a></li>
+            <li class="mob-social-item"><a class="mob-social-link" href="">Twitter</a></li>
+            <li class="mob-social-item"><a class="mob-social-link" href="">Facebook</a></li>
+            <li class="mob-social-item"><a class="mob-social-link" href="">Linkedln</a></li>
+          </ul>
+        </ul>
         </div>
-    </header> -->
-
-
+        </div>
+    </header>
     <main>
     <section class="main-portfolio">
         <div class="container">
@@ -52,8 +89,6 @@
             <li class="item"><button class="button">Дизайн</button></li>
             <li class="item"><button class="button">Маркетинг</button></li>
         </ul>
-
-
         <ul class="works-list">
             <li class="cards"><a href="" class="link cards-link">
                 <div class="thumb-cards"><img src="./IMG/img-0.png" alt="комп">
@@ -63,10 +98,6 @@
             </div>
                 <div class="works-underline"><h3 class="upperphotounderline">Технокряк</h3>
             <p class="bottomphotounderline">Веб-сайт</p></div></a></li>
-            
-
-
-
             <li class="cards"><a href="" class="link cards-link">
                 <div class="thumb-cards"><img src="./IMG/img-10.jpg" alt="баскетбол">
                     <p class="overlay-portfolio">
@@ -140,13 +171,16 @@
         </div>
     </section>
     </main>
-   <!-- <footer class="footer">
+
+      <footer class="footer">
         <div class="container">
+            <div class="container-tab">
+            <div class="container-mob">
             <div class="adress">
     <a href="" class="footer-logo"><span class="logo">Web</span><span class="logo2">Studio</span></a>
             <ul class="footercontacts">
-                <li class="footercontacts__item"><a href="https://g.page/stamp-capital?share" target="_blank" class="footercontacts__connect connect--light">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li class="footercontacts__item"><a href="mailto:info@devstudio.com" class="footercontacts__connect connect--dark">info@devstudio.com</a></li>
+                <li class="footercontacts__item"><a href="https://g.page/stamp-capital?share" target="_blank" class="footercontacts__connect footercontacts--streetadres">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="footercontacts__item"><a href="mailto:info@devstudio.com" class="footercontacts__connect">info@devstudio.com</a></li>
                 <li class="footercontacts__item"><a href="tel:+380961111111" class="footercontacts__connect">+380961111111</a></li>
             </ul>
         </div>
@@ -173,9 +207,10 @@
             </li>
         </ul>
         </div>
+        </div>
             <div class="footer-submit">
                 <h3 class="footer-title">Подпишитесь на рассылку</h3>
-                <form>
+                <form class="footer-form">
             <label for="email"></label>
             <input type="email" name="user-email" class="footer-submit__email" id="email" placeholder="E-mail">
             <button type="submit" class="footer-submit__button">Подписаться</button>
@@ -183,6 +218,12 @@
            </form>
         </div>
         </div>
-    </footer> -->
+
+        </div>
+        </div>
+
+
+    </footer>
+  <script src="./js/menu1.js"></script>
 </body>
 </html>

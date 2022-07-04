@@ -13,8 +13,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    // margin-bottom: -30px;
-    
 
 }
 
@@ -23,9 +21,6 @@
     max-width: 100%;
     height: auto;
     width: 100%;
-    
-    // margin-bottom: 30px;
-    // width: 270px;
     outline: 1px solid tomato;
      @media screen and (min-width: 768px) {
         width: calc((100% - 30px) / 2);
@@ -68,14 +63,6 @@
     background-position: center;
     background-image: url(../IMG/astronaut.svg);
 }
-
-
-
-
-// .solutionspar .item + .item{
-//     // margin-left: 30px;
-// }
-
 
 .solutions-title {
 color: var(--titletextcolor);
