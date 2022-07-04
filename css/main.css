@@ -390,7 +390,8 @@ h3 {
 .contacts {
   align-items: center;
   margin-left: auto;
-  padding-top: 20px;
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 @media screen and (max-width: 768px) {
   .contacts {
@@ -403,10 +404,18 @@ h3 {
   }
 }
 
+.contacts__item {
+  margin-bottom: 10px;
+}
+.contacts__item:last-child {
+  margin-bottom: 0px;
+}
 @media screen and (min-width: 1200px) {
-  .contacts__item + .contacts__item {
+  .contacts__item {
     display: inline-flex;
+    align-items: center;
     margin-left: 50px;
+    margin-bottom: 0px;
   }
 }
 

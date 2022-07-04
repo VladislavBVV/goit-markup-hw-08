@@ -125,7 +125,8 @@ text-decoration: none;
   
   align-items: center;
   margin-left: auto;
-  padding-top: 20px;
+  padding-top: 21px;
+  padding-bottom: 21px;
   @media screen and (max-width: 768px) {
 display: none; 
 } 
@@ -137,14 +138,21 @@ display: inline-flex;
    
 }
 
-.contacts__item + .contacts__item {
-  @media screen and (min-width: 1200px) {
+.contacts__item {
+     
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+ @media screen and (min-width: 1200px) {
 display: inline-flex;
+align-items: center;
 margin-left: 50px;
-
+margin-bottom: 0px;
 } 
-    
+
 }
+
 
 .contacts__icon {
     margin-right: 10px;
