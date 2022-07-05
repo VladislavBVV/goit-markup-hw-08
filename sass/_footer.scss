@@ -87,7 +87,7 @@ transition: color 250ms var(--timingfunction);
 .adress{
     // text-align: left;
     // margin-right: 70px;
-     @media screen and (max-width: 768px) {
+     @media screen and (max-width: 767px) {
         text-align: center;
         margin-right: 0;
         margin-bottom: 60px;
@@ -204,6 +204,10 @@ display: flex;
     padding-left: 15px;
     color: #FFFFFF;
     @media screen and (max-width: 1199px) {
+    //    width: 358px;
+       margin-bottom: 20px;
+     }
+      @media screen and (min-width: 1200px) {
        width: 358px;
        margin-bottom: 20px;
      }

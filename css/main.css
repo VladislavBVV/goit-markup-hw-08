@@ -347,7 +347,7 @@ h3 {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 767px) {
   .nav {
     display: none;
   }
@@ -411,7 +411,7 @@ h3 {
   padding-top: 21px;
   padding-bottom: 21px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .contacts {
     display: none;
   }
@@ -959,7 +959,7 @@ h3 {
 }
 
 .nav-portfolio .button {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -975,24 +975,34 @@ h3 {
 .nav-portfolio button:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: var(--accent);
 }
 
 .main-portfolio {
   background-color: var(--worksbcg);
-  padding-top: 94px;
-  padding-bottom: 94px;
+}
+@media screen and (min-width: 480px) {
+  .main-portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .nav-portfolio {
   justify-content: center;
   margin-bottom: 50px;
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   gap: 8px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .nav-portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -1023,7 +1033,7 @@ h3 {
   line-height: 1.56;
   letter-spacing: 0.03em;
   background-color: rgba(33, 150, 243, 0.9);
-  color: #FFFFFF;
+  color: #ffffff;
   transform: translateY(101%);
   transition: transform 250ms var(--timingfunction);
 }
@@ -1081,9 +1091,9 @@ h3 {
 
 .works-underline {
   padding: 20px 24px;
-  border-bottom: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
-  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .works-list .upperphotounderline {
@@ -1173,7 +1183,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .adress {
     text-align: center;
     margin-right: 0;
@@ -1292,6 +1302,11 @@ h3 {
   }
 }
 @media screen and (max-width: 1199px) {
+  .footer-submit__email {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .footer-submit__email {
     width: 358px;
     margin-bottom: 20px;

@@ -54,7 +54,7 @@ letter-spacing: 0.03em;
 .nav {
     display: flex;
     align-items: center;
-       @media screen and (max-width: 780px) {
+       @media screen and (max-width: 767px) {
     display: none;
   }
 
@@ -135,7 +135,7 @@ text-decoration: none;
   margin-left: auto;
   padding-top: 21px;
   padding-bottom: 21px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
 display: none; 
 } 
 @media screen and (min-width: 1200px) {
