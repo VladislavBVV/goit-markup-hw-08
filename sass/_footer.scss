@@ -45,6 +45,13 @@ color: #FFFFFF;
 
 .footercontacts {
     margin-right: auto;
+     @media screen and (min-width: 1200px) {
+        text-align: center;
+    
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+     }
 }
 
 .footercontacts__item:not(:last-child) {
@@ -80,21 +87,29 @@ transition: color 250ms var(--timingfunction);
 .footer .container {
     align-items: center;
     @media screen and (min-width: 1200px) {
-        display: flex;
+        
     }
 }
 
 .adress{
-    // text-align: left;
-    // margin-right: 70px;
+    
+    margin-bottom: 60px;
      @media screen and (max-width: 767px) {
         text-align: center;
         margin-right: 0;
-        margin-bottom: 60px;
+        
      }
      @media screen and (min-width: 768px) {
         text-align: center;
         margin-right: 165px;
+        margin-bottom: 60px;
+     }
+     @media screen and (min-width: 1200px) {
+        text-align: center;
+        margin-right: 70px;
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
      }
 }
 
@@ -118,6 +133,14 @@ color: #FFFFFF;
      @media screen and (max-width: 768px) {
         margin-bottom: 60px;
      }
+      @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+     }
+
+
+
+
+              
     
 }
 
@@ -164,11 +187,11 @@ display: flex;
 /* -------------------------------Footer form---------------------------------------*/
 
 .footer-submit {
-    margin-left: auto;
+    // margin-left: auto;
     align-items:baseline;
     justify-content: center;
       @media screen and (min-width: 1200px) {
-         margin-left: 93px;
+
     
      }
    
@@ -244,7 +267,7 @@ display: flex;
 .container-tab {
      @media screen and (min-width: 1200px) {
         display: flex;
-        margin: auto;
+        margin-left: 0;
      }
      
 }
@@ -252,7 +275,11 @@ display: flex;
     justify-content: center;
     @media screen and (min-width: 768px) {
         display: flex;
-        margin-bottom: 60px;
+
+    }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+       
     }
 
 }
