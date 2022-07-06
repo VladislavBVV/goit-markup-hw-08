@@ -465,10 +465,6 @@ h3 {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  padding: 0;
-  margin: 0 auto;
 }
 
 .mob-btn {
@@ -507,6 +503,10 @@ h3 {
   transition: color 250ms var(--timingfunction);
 }
 .mob-nav-link:hover, .mob-nav-link:focus {
+  color: var(--accent);
+}
+
+.mob-nav__current {
   color: var(--accent);
 }
 
@@ -963,7 +963,7 @@ h3 {
   fill: var(--accent);
 }
 
-.nav-portfolio .button {
+.nav-portfolio__button {
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
@@ -972,14 +972,12 @@ h3 {
   letter-spacing: 0.03em;
   padding: 6px 22px;
   border: 1px solid transparent;
-  transition: background-color 250ms var(--timingfunction), box-shadow 250ms var(--timingfunction);
-  color: #212121;
-}
-
-.nav-portfolio button:hover,
-.nav-portfolio button:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  color: #212121;
+  transition: background-color 250ms var(--timingfunction), box-shadow 250ms var(--timingfunction);
+}
+.nav-portfolio__button:hover, .nav-portfolio__button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
   background-color: var(--accent);
 }
@@ -1295,7 +1293,7 @@ h3 {
 @media screen and (min-width: 1200px) {
   .footer-form {
     display: flex;
-    width: 358px;
+    min-width: 358px;
   }
 }
 
@@ -1325,7 +1323,7 @@ h3 {
 }
 @media screen and (min-width: 1200px) {
   .footer-submit__email {
-    width: 358px;
+    min-width: 358px;
     margin-bottom: 20px;
   }
 }

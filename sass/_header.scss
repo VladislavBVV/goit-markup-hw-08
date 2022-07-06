@@ -199,10 +199,10 @@ letter-spacing: 0.02em;
    left: 0;
    width: 100vw;
    height: 100vh;
-   padding-top: 48px;
-   padding-bottom: 48px;
-   padding: 0;
-   margin: 0 auto;   
+  //  padding-top: 48px;
+  //  padding-bottom: 48px;
+  //  padding: 0;
+  //  margin: 0 auto;   
 
     
 }
@@ -252,6 +252,12 @@ transition: color 250ms var(--timingfunction);
     color: var(--accent);
 }
 }
+
+.mob-nav__current {
+    color: var(--accent);
+
+}
+
 
 .mob-contacts {
  margin-left: 40px;  

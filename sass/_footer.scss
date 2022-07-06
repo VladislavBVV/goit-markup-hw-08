@@ -206,7 +206,7 @@ display: flex;
       }
       @media screen and (min-width: 1200px) {
         display: flex;
-        width: 358px;
+        min-width: 358px;
       }
          
 }
@@ -231,7 +231,7 @@ display: flex;
        margin-bottom: 20px;
      }
       @media screen and (min-width: 1200px) {
-       width: 358px;
+       min-width: 358px;
        margin-bottom: 20px;
      }
     
