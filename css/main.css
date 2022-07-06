@@ -114,13 +114,24 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  min-height: 581px;
   padding: 40px;
   background-color: #FFFFFF;
   opacity: 1;
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 467px) {
+  .modal {
+    padding: 40px;
+    width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .input-field {
@@ -170,10 +181,19 @@ h3 {
   text-align: center;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
   text-align: center;
   color: #212121;
   margin-bottom: 12px;
+}
+@media screen and (min-width: 467px) {
+  .modal-title {
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-title {
+    line-height: 1.15;
+  }
 }
 
 .userdata {
@@ -213,7 +233,6 @@ h3 {
 }
 
 .modal-comments {
-  width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -225,6 +244,17 @@ h3 {
 .modal-comments:hover, .modal-comments:focus {
   border-color: var(--accent);
 }
+@media screen and (min-width: 467px) {
+  .modal-comments {
+    width: 370px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-comments {
+    width: 448px;
+    height: 120px;
+  }
+}
 
 .checkbox-field {
   display: flex;
@@ -235,8 +265,6 @@ h3 {
 .policy-text {
   display: flex;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   margin-right: 8px;
   align-items: center;
@@ -250,14 +278,39 @@ h3 {
   border-radius: 3px;
   margin-right: 8px;
 }
+@media screen and (min-width: 467px) {
+  .policy-text {
+    width: 370px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .policy-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* identical to box height, or 171% */
+    letter-spacing: 0.03em;
+  }
+}
 
 .policy-terms {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: #2196F3;
+}
+@media screen and (min-width: 1200px) {
+  .policy-terms {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* identical to box height, or 171% */
+    letter-spacing: 0.03em;
+  }
 }
 
 .checkbox:checked + .policy-text::before {
@@ -487,7 +540,7 @@ h3 {
 
 .mob-nav {
   margin-left: 40px;
-  margin-bottom: 200px;
+  margin-bottom: 305px;
 }
 
 .mob-nav-item {
@@ -559,6 +612,7 @@ h3 {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #2196F3;
 }
 
