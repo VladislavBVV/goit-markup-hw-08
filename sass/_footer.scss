@@ -135,7 +135,7 @@ color: #FFFFFF;
         margin-bottom: 60px;
      }
       @media screen and (min-width: 1200px) {
-        margin-right: 93px;
+        margin-right: 103px;
      }
 
 
@@ -192,6 +192,7 @@ display: flex;
     align-items:baseline;
     justify-content: center;
       @media screen and (min-width: 1200px) {
+        margin-right: auto;
 
     
      }
@@ -268,7 +269,8 @@ display: flex;
 .container-tab {
      @media screen and (min-width: 1200px) {
         display: flex;
-        margin-left: 0;
+        margin-right: auto;
+        // margin-right: auto;
      }
      
 }
@@ -280,7 +282,7 @@ display: flex;
     }
     @media screen and (min-width: 1200px) {
         display: flex;
-       
+       margin-right: auto;
     }
 
 }
