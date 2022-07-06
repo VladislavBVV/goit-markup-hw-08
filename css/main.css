@@ -478,7 +478,6 @@ h3 {
   border: none;
   margin-top: 10px;
   margin-right: 15px;
-  margin-bottom: 10px;
 }
 .mob-btn:hover, .mob-btn:focus {
   fill: var(--accent);
@@ -492,13 +491,11 @@ h3 {
 
 .mob-nav {
   margin-left: 40px;
+  margin-bottom: 200px;
 }
 
 .mob-nav-item {
   margin-bottom: 32px;
-}
-.mob-nav-item:last-child {
-  margin-bottom: 306px;
 }
 
 .mob-nav-link {
@@ -543,7 +540,6 @@ h3 {
 .mob-social {
   display: inline-flex;
   margin-left: 40px;
-  margin-top: 20px;
 }
 
 .mob-social-item {
