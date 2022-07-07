@@ -1409,7 +1409,10 @@ h3 {
   margin-left: 5px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../IMG/iconsend.svg);
+}
+
+.icon-icon-send {
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 1200px) {
