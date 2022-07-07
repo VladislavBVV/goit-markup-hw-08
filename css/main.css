@@ -290,6 +290,7 @@ h3 {
 }
 @media screen and (min-width: 1200px) {
   .policy-text {
+    width: auto;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
