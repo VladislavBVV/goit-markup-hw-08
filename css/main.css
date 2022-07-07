@@ -1395,7 +1395,7 @@ h3 {
   height: 50px;
   border: transparent;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   border-radius: 4px;
   border: 1px solid transparent;
   color: #FFFFFF;
